@@ -1,0 +1,68 @@
+# Entorno y secrets (¡nunca commitear!)
+.env
+.mcp.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Entorno virtual
+.venv/
+venv/
+env/
+ENV/
+
+# Directorios de trabajo de ClipForge
+output/
+temp/
+*.clipforge_state.json
+
+# Cookies y credenciales de plataformas
+cookies.txt
+cookies/
+
+# Excluir JSON generados por el runtime, pero no package.json si lo hubiera
+*.state.json
+
+# Modelos descargados (pueden ser varios GB)
+models/
+*.bin
+*.pt
+*.onnx
+*.safetensors
+
+# Vídeos y audio (assets pesados)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.wav
+*.mp3
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/

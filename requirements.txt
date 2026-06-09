@@ -1,0 +1,38 @@
+# ClipForge dependencies
+# ============================================================
+# IMPORTANTE: torch debe instalarse por separado con soporte CUDA:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# ============================================================
+
+# Transcripción local (CUDA)
+faster-whisper>=1.0.3
+
+# Cliente Ollama
+ollama>=0.3.3
+
+# Edición de vídeo
+moviepy>=1.0.3
+ffmpeg-python>=0.2.0
+
+# Face tracking (CUDA vía ONNX Runtime)
+insightface>=0.7.3
+onnxruntime-gpu>=1.19.2
+
+# Procesado de imagen / subtítulos
+Pillow>=10.4.0
+opencv-python>=4.10.0.84
+numpy>=1.26.4
+
+# Automatización de navegador (upload)
+playwright>=1.47.0
+
+# Configuración y validación
+pydantic>=2.9.2
+pydantic-settings>=2.5.2
+python-dotenv>=1.0.1
+
+# Logging y CLI
+rich>=13.9.2
+
+# torch — instalar por separado con CUDA (ver instrucción arriba)
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
